@@ -1,21 +1,30 @@
+# Maven build output
 target/
 *.class
 
+# IDE files
 .idea/
 *.iml
 .classpath
 .project
 .settings/
 
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
 
+# Local-only Spring configuration
 application-local.properties
 application-local.yml
 
+# Logs and OS files
 *.log
 .DS_Store
 Thumbs.db
-src/main/resources/application.properties
+
+# Track the production-safe Spring configuration
+# Never put real passwords or JWT secrets directly in this file
+
+# Temporary or local files
 query
