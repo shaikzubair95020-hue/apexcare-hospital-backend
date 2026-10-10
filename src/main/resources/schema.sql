@@ -1,6 +1,4 @@
 -- ApexCare Hospital Management System Database Schema (MySQL 8+)
-CREATE DATABASE IF NOT EXISTS apexcare_hms;
-USE apexcare_hms;
 
 -- Users table
 CREATE TABLE IF NOT EXISTS users (
